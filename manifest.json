@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Twitch Broadcast Date Display",
+    "version": "0.0.1",
+    "permissions": [],
+    "action": {},
+    "content_scripts": [
+        {
+            "js": ["content_scripts/content_script.js"],
+            "css": ["content_scripts/style.css"],
+            "matches": ["https://www.twitch.tv/*"]
+        }
+    ],
+    "background": {}
+  }
